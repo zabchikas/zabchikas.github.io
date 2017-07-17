@@ -1,0 +1,49 @@
+
+    body
+    { margin: 0; padding: 0;}
+
+                    /*Структура сайта*/
+div.header1
+    {
+    /*height:100px;*/
+    background: white;
+    position: fixed ; top: 0px;
+    attachment: fixed;
+    width:100%;
+    z-index:2;
+    }
+
+
+
+div.header {
+    background-image: url(images/top.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    z-index: 1;
+    margin: auto;
+    display: block;
+
+    }
+
+hr {
+	position: absolute; top: 300px;
+	width: 500px;
+	color: blue;
+}
+  p{
+      text-align: center;
+      font-size: 150px;
+      font-family: Lato;
+      font-weight: bold;
+      color: #ffffff;
+      border-bottom: 7px solid lightseagreen;
+      width: 700px;
+      position: absolute;
+      left: 50%;
+      margin-left: -264px;
+      top: 50px;
+
+   }
