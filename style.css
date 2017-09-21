@@ -1,49 +1,629 @@
 
     body
-    { margin: 0; padding: 0;}
-
+    {
+        /*width: 1600px;*/
+        margin: auto;
+        padding: 0;
+        font-family: lato, serif;
+        background: #D7E4F2;
+    }
+    
+header{
+    width: 1200px;
+    margin:auto;
+}
                     /*Структура сайта*/
+
+    .top{
+        width:1200px;
+        height:auto;
+        margin: 0 auto;
+        background: #FFFFFF;
+    }
 div.header1
     {
     /*height:100px;*/
-    background: white;
-    position: fixed ; top: 0px;
-    attachment: fixed;
+    background: #FFFFFF;
+    position: fixed ; 
+	top: 0;
     width:100%;
     z-index:2;
     }
-
+.str{
+    position: relative;
+    width: 1200px;
+    top: -734px;
+}
 
 
 div.header {
-    background-image: url(images/top.jpg);
-    background-repeat: no-repeat;
+    /*background-image: url(images/top.jpg);*/
+    /*background-repeat: no-repeat;*/
     height: 800px;
-    width: 100%;
+    width: 1200px;
     position: relative;
-    top: 100px;
+    top: -101px;
     z-index: 1;
     margin: auto;
     display: block;
 
     }
-
+    div.header img{
+        width:100%;
+        position: relative;
+        top: 100px;
+    }
 hr {
-	position: absolute; top: 300px;
-	width: 500px;
-	color: blue;
-}
-  p{
-      text-align: center;
-      font-size: 150px;
-      font-family: Lato;
-      font-weight: bold;
-      color: #ffffff;
-      border-bottom: 7px solid lightseagreen;
-      width: 700px;
-      position: absolute;
-      left: 50%;
-      margin-left: -264px;
-      top: 50px;
+    text-align: center; position: relative;
+    top: 178px;
+        width: 517px;
+    height: 5px;
+    background: #4592C6;
+    border: none;
+  }
+ @font-face {
+font-family: Lato; /* имя шрифта для CSS правил */
+src:local("Lato"), /* проверяем наличие шрифта в ОС пользователя */
+url(lato/lato-bold.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+url(lato/lato-regular.ttf)
+  }
+  @font-face {
+font-family: Lato; /* имя шрифта для CSS правил */
+src: url(lato/lato/lato-regular.ttf); /* проверяем наличие шрифта в ОС пользователя */ local("Lato")
+  }
+ p{
+     text-align: center;
+     font-size: 96px;
+     font-family: Lato, serif;
+     font-weight: bold;
+     color: #ffffff;
+     position: relative;
+     top: 254px;
+     letter-spacing: 7px;
+    }
 
+.p2{
+    position: relative;
+    top: 186px;
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+	
+#btn {
+    width: 140px;
+    height: 45px;
+    background: #16A4FA;
+    position: relative;
+    border: 1px;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+	}
+#btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px #48BAFF;
+    background:#767D8D;
+
+}
+div.header a{
+    position: relative;
+    left: 547px;
+    top: 246px;
+    width: 1200px;
+}
+	
+
+.sp{
+		width: 158px;
+		height: 57px;
+		background: blue;
+		position: relative;
+		left: 741px;
+		top: 36px;
+		font-size: 25px;
+		border-radius: 8px;
+		display: block;
+        font-family: lato, serif;
+
+		text-align: center;}
+	
+div.line {
+        position: relative;
+		top: -198px;
+		width: 1200px;
+		height: auto;
+        margin:0 auto;
+        padding:24px 0;
+		background-color: #F5F9FA;
+		color: black;
+		text-align: center;
+        font-family: lato, serif;}
+	
+div.line p		{
+    position: relative;
+    width: 1000px;
+    line-height: 2;
+    font-size: 16px;
+    font-weight: 500;
+    color: #939798;
+    top: 6px;
+    letter-spacing: 1.5px;
+    margin: auto;
+    padding: 20px;
+}
+		
+div.line h1
+{font-size: 39px;
+    color: black;
+    padding: 0;
+    margin: 10px 0;
+    font-weight: 100;
+}
+    /*Іконки*/             /*Іконки*/   /*Іконки*/   /*Іконки*/
+
+.icons{
+    width: 1200px;
+    /* overflow: auto; */
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    position: relative;
+    top: -198px;
+    height: 2208px;
+}
+#cont{
+    text-decoration: none;
+    color: #898D8C;
+    cursor: pointer;
+}
+.tel{
+    float: left;
+    position: relative;
+    left: 32px;
+    text-align: center;
+    width: 350px;
+
+}
+div.icons img{
+    padding: 20px;
+
+}
+div.icons p{
+    position: relative;
+    top: -13px;
+    font-size: 15px;
+    color: #AEAEAE;
+    letter-spacing: normal;
+    }
+
+div.icons h3{
+        font-family: lato, serif;
+        font-size: 22px;
+    }
+
+div.fly{
+        float: left;
+        position: relative;
+        left: 77px;
+        text-align: center;
+        width: 350px;
+    }
+
+.font{
+        float: left;
+        position: relative;
+        left: 130px;
+        text-align: center;
+        width: 350px;
+
+    }
+
+    /*Foto blocks*/      /*Foto blocks*/       /*Foto blocks*/       /*Foto blocks*/
+
+
+
+div.foto{
+    margin:0 auto;
+    padding:20px;
+    clear: both;
+        text-align: center;
+    background-color: #F5F9FA ;
+
+}
+
+div.foto h1{
+    padding: 20px;
+    font-size: 50px;
+}
+
+div.foto p{
+    font-size: 21px;
+}
+
+
+div.aa, div.aaa, div.aa4, div.aa5, div.aa3, div.aa6{
+        display: inline-block;
+        width: 300px;
+        height: 260px;
+        padding:0;
+        margin: 20px;
+        /*float: left ;*/
+        overflow: hidden;
+
+    }
+                            /*Lisaped Lisaped Lisaped Lisaped Lisaped Lisaped */
+   .aa img{
+       width: 300px;
    }
+
+.a1{
+    width: 300px;
+    /*height: 300px;*/
+}
+.a1:hover .aa img{
+    display: none;
+}
+.a1:hover .aa{
+    background: url(images/blue_fon2.png) no-repeat, url(images/Lisaped.png) no-repeat;
+       -webkit-background-size: 300px 250px;
+    background-size: 300px 250px;
+}
+
+    .overlay {
+        display: none;
+        position: relative;
+        left: -40px;
+        top: 573px;
+        z-index: 999;
+        /*width: 100px;*/
+
+    }
+
+    .Big_lisaped{
+        /*display:none;*/
+        max-width: 1200px;
+          }
+
+    .overlay:target {
+        display: table;
+    }
+
+
+                    /*Madam Madam Madam Madam Madam Madam Madam Madam Madam Madam Madam Madam Madam */
+    .aaa img{
+        width: 400px;
+    }
+
+    .a2:hover .aaa img{
+        display: none;
+    }
+    .a2:hover .aaa{
+        background: url(images/blue_fon2.png) no-repeat 50% 50%, url(images/madam.jpg) no-repeat 50% 50%;
+           }
+
+    .overlay2 {
+        display: none;
+        left: -21px;
+        position: absolute;
+        top: 573px;
+        z-index: 999;
+
+    }
+    .Madam{
+        /*display:none;*/
+        max-width: 1200px;
+    }
+    .overlay2:target {
+        display: table;
+    }
+
+                /*Two_cups Two_cups Two_cups Two_cups Two_cups Two_cups Two_cups Two_cups Two_cups */
+    .aa3 img{
+        width: 400px;
+    }
+
+    .a3:hover .aa3 img{
+        display: none;
+    }
+    .a3:hover .aa3{
+        background: url(images/blue_fon2.png) no-repeat 50% 50%, url(images/two_cups.jpg) no-repeat 50% 50%;
+    }
+    .overlay3 {
+        display: none;
+        left: -21px;
+        position: absolute;
+        top: 573px;
+        z-index: 999;
+
+    }
+    .Two_cups{
+        /*display:none;*/
+        max-width: 1200px;
+    }
+    .overlay3:target {
+        display: table;
+    }
+
+    /*<!--One cup One cup One cup One cup One cup One cup One cup One cup One cup-->*/
+    .aa4 img{
+        width: 400px;
+    }
+
+    .a4:hover .aa4 img{
+        display: none;
+    }
+    .a4:hover .aa4{
+        background: url(images/blue_fon2.png) no-repeat 50% 50%, url(images/w_cup_tea.jpg) no-repeat 50% 50%;
+    }
+    .overlay4 {
+        display: none;
+        left: -21px;
+        position: absolute;
+        top: 586px;
+        z-index: 999;
+
+    }
+    .One_cup{
+        /*display:none;*/
+        max-width: 1200px;
+    }
+    .overlay4:target {
+        display: table;
+    }
+
+    /*<!--Two lisapeds Two lisapeds Two lisapeds Two lisapeds Two lisapeds Two lisapeds Two lisapeds-->*/
+
+    .aa5 img{
+        width: 362px;
+    }
+
+    .a5:hover .aa5 img{
+        display: none;
+    }
+    .a5:hover .aa5{
+        background: url(images/blue_fon2.png) no-repeat 50% 50%, url(images/lisaped2.jpg) no-repeat 50% 50%;
+    }
+.overlay5 {
+        left: -21px;
+    display: none;
+    position: absolute;
+    top: 736px;
+    z-index: 999;
+
+}
+    .Two_lis{
+        /*display:none;*/
+        max-width: 1200px;
+    }
+    .overlay5:target {
+        display: table;
+    }
+
+
+.clear{
+        padding: 54px;
+    }
+
+    /*<!--Lisaped right Lisaped right Lisaped right Lisaped right Lisaped right Lisaped right-->*/
+    .aa6 img{
+        width: 366px;
+        position: relative;
+        left: -74px;
+    }
+
+    .a6:hover .aa6 img{
+        display: none;
+    }
+    .a6:hover .aa6{
+        background: url(images/blue_fon2.png) no-repeat 50% 50%, url(images/lisaped.jpg) no-repeat 80% 50%;
+    }
+    .overlay6 {
+        display: none;
+        left: -21px;
+        position: absolute;
+        top: 736px;
+        z-index: 999;
+
+    }
+    .Right_lis{
+        /*display:none;*/
+        max-width: 1200px;
+        max-height: 1000px;
+    }
+    .overlay6:target {
+        display: table;
+    }
+
+    .clear{
+        padding: 54px;
+    }
+/*Foter & forms*/  /*Foter & forms*//*Foter & forms*//*Foter & forms*//*Foter & forms*/
+
+.footer{
+    text-align: center;
+    width: 1200px;
+    height: 800px;
+    padding: 50px 0;
+       }
+.fon{
+    background: url(images/footerfon.jpg);
+    position: relative;
+    top: -50px;
+    z-index: 1;
+    height: 800px;
+}
+
+.form{
+        background: rgba(65,76,96, 0.9);
+        text-align: center;
+        font-size: 20px;
+        color: #FFFFFF;
+        position: relative;
+        height: 800px;
+        top: -851px;
+        z-index: 2;
+}
+
+.form h1{
+    color: #fff;
+    font-weight:100;
+    padding:50px 0 10px 0;
+    margin:0;
+    font-size:50px;
+
+}
+
+#fp{
+    color: #FFFFFF;
+    font-size: 15px;
+    padding:10px 0 40px 0;
+    font-weight:100;
+}
+
+.usn{
+    width: 533px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #959CAC;
+}
+
+.email{
+        width:533px;
+        height:50px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #959CAC;
+
+}
+
+.mas{
+        width:533px;
+        height:125px;
+    font-size: 20px;
+    font-family:Lato, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #959CAC;
+}
+
+.checkbox{
+    background-color: #989FA8;
+    width: 27px;
+    height: 27px;
+    position: relative;
+    left: -84px;
+    top: 13px;
+}
+
+input{
+    opacity: 1;
+    border:1px solid white;
+    background:none;
+    color: #ffffff;
+}
+
+input::placeholder{
+    color: #FFFFFF;
+}
+
+textarea{
+    background:none;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+
+}
+
+textarea::placeholder{
+        color: #ffffff;
+    }
+
+#subscribe{
+    position: relative;
+    left: -75px;
+    top: 10px;
+}
+
+.form button{
+    position: relative;
+    left: 78px;
+    top: 7px;
+    width: 150px;
+    height: 54px;
+    font-size: 23px;
+    background: #16A4FA;
+    color: #ffffff;
+    border: solid 1px #16A4FA;
+    border-radius: 3px;
+
+}
+    .form button:hover{
+        cursor: pointer;
+    }
+/*Социальная нижняя полоска копирайт*/  /*Социальная нижняя полоска копирайт*/
+
+div.social{
+    position: relative;
+    width: 1200px;
+    height: 100px;
+    text-align: left;
+    top: -52px;
+}
+
+div.social p{
+    padding: 10px 0 10px 65px;
+    width: 300px;
+    text-align: left;
+    font-size: 26px;
+    float: left;
+    }
+
+.fb{
+    float: left;
+       padding: 20px;
+    margin: 10px;
+}
+
+.icns{
+    position: absolute;
+    left: 928px;
+}
+    .fb{
+        float: left;
+        padding: 20px;
+        margin: 10px;
+        background-image: url("images/ss_fb.jpg");
+    }
+
+    .tw{
+        float: left;
+        padding: 20px;
+        margin: 10px;
+        background-image: url("images/ss_twit.jpg");
+
+    }
+    .ggl{
+        float: left;
+        padding: 20px;
+        margin: 10px;
+        background-image: url("images/ss_g.jpg");
+
+    }
+    .ln{
+        float: left;
+        padding: 20px;
+        margin: 10px;
+        background-image: url("images/ss_ln.jpg");
+
+    }
+    @media screen and (max-width:1280px){
+        /*div.top {*/
+            /*width:70%;*/
+        /*}*/
+        .header{
+            width:70%;
+        }
+
+    }
